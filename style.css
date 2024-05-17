@@ -12,7 +12,6 @@ body {
     height: 100vh;
 }
 
-
 main{
     height: 93%;
     display: flex;
@@ -20,21 +19,39 @@ main{
     justify-content: center;
 }
 
+.calc{
+    background-color:#da92f4;
+    border: 3px solid black;
+    border-radius: 15px;
+}
 
-.calc {
+.tela{
+    background-color: #e3cbec;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px 20px;
+    margin: 15px;
+}
+
+.apaga{
+    margin: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teclado {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    width: 500px;
-    border: 2px solid;
-    border-radius: 15px;
-    padding: 20px;
-    background-color:#da92f4;
+    grid-gap: 5px;
+    padding: 5px 15px 15px 15px;
+    min-width: 300px;
 }
 
 button {
-    padding: 8px 16px;
-    font-size: 18px;
+    padding: 7px;
+    font-size: 20px;
     color: #f5f5f5;
     margin: 5px;
     border-radius: 8px;
