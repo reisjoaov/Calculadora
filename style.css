@@ -10,6 +10,7 @@ body {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     height: 100vh;
+    background-color: #cc99df9d;
 }
 
 main{
@@ -21,13 +22,13 @@ main{
 
 .calc{
     background-color:#da92f4;
-    border: 3px solid black;
+    border: 3px solid  #501455;
     border-radius: 15px;
 }
 
 .tela{
     background-color: #e3cbec;
-    border: 2px solid black;
+    border: 2px solid #501455;
     border-radius: 5px;
     text-align: right;
     padding: 10px 20px;
@@ -52,7 +53,7 @@ main{
 button {
     padding: 7px;
     font-size: 20px;
-    color: #f5f5f5;
+    color: #501455;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
@@ -70,5 +71,5 @@ button {
     width: 100%;
     padding: 20px;
     color: #f5f5f5;
-    background-color: #1f2937;
+    background-color: #270024;
 }

@@ -12,31 +12,31 @@
   <main>
     <div class="calc">
       <div class="tela">
-        <div class="resultado">tela resultado</div>
+        <div class="resultado" id="telaOperacaoAtual"></div>
       </div>
 
       <div class="apaga">
-        <button> CLEAR </button>
-        <button> DELETE </button>
+        <button class="botaoClear" id="btnClear"> Clear </button>
+        <button class="botaoDelete" id="btnDelete"> Delete </button>
       </div>
 
       <div class="teclado">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>/</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>*</button>
-        <button>1</button>
-        <button>2</button>      
-        <button>3</button>
-        <button>-</button>
-        <button>.</button>
-        <button>0</button>
-        <button>=</button>
-        <button>+</button>
+        <button class="btn" data-number>7</button>
+        <button class="btn" data-number>8</button>
+        <button class="btn" data-number>9</button>
+        <button class="btn" data-operator>/</button>
+        <button class="btn" data-number>4</button>
+        <button class="btn" data-number>5</button>
+        <button class="btn" data-number>6</button>
+        <button class="btn" data-operator>*</button>
+        <button class="btn" data-number>1</button>
+        <button class="btn" data-number>2</button>
+        <button class="btn" data-number>3</button>
+        <button class="btn" data-operator>-</button>
+        <button class="btn" id="btnPonto">.</button>
+        <button class="btn" data-number>0</button>
+        <button class="btn" id="btnIgual">=</button>
+        <button class="btn" data-operator>+</button>
       </div>
     </div>
   </main>
